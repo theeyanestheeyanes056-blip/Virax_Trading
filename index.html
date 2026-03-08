@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="viraX_Trading — Automated Algo Trading Solutions Built for Consistent Performance. Custom strategy development, backtesting, and trading automation.">
+  <title>viraX_Trading | Precision. Performance. Profitability.</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" href="logo.png">
+</head>
+
+<body>
+
+  <!-- Background Particles -->
+  <div class="bg-particles" id="particles"></div>
+
+  <!-- ===== Navigation ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#" class="nav-logo">
+        <img src="logo.png" alt="viraX Trading Logo" class="nav-logo-img">
+        <div class="nav-logo-text">
+          <span class="virax">viraX</span>
+          <span class="trading">TRADING</span>
+        </div>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#why-us">Why Us</a></li>
+        <li><a href="#process">Process</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#contact" class="nav-cta">Get Started</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== Hero Section ===== -->
+  <section class="hero" id="hero">
+    <div class="hero-grid"></div>
+    <div class="container hero-content">
+      <div class="hero-badge">
+        <span class="dot"></span>
+        Algorithmic Trading Solutions — viraX_Trading
+      </div>
+      <h1>
+        Automated Algo Trading<br>
+        Built for <span class="gold-text">Consistent Performance</span>
+      </h1>
+      <p>
+        At <strong>viraX_Trading</strong>, we design, develop, and deploy intelligent algorithmic trading systems for
+        modern traders. From custom strategy development to advanced backtesting — we transform trading ideas into
+        automated performance engines.
+      </p>
+      <div class="hero-features">
+        <span><span class="icon">📊</span> Data-Driven Strategies</span>
+        <span><span class="icon">🛡️</span> Advanced Risk Management</span>
+        <span><span class="icon">⚡</span> Fully Automated Execution</span>
+      </div>
+      <div class="hero-buttons">
+        <a href="#contact" class="btn-primary">Get Started →</a>
+        <a href="#contact" class="btn-secondary">Book Consultation</a>
+      </div>
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <div class="number" data-count="100">0+</div>
+          <div class="label">Strategies Built</div>
+        </div>
+        <div class="hero-stat">
+          <div class="number" data-count="50">0+</div>
+          <div class="label">Active Clients</div>
+        </div>
+        <div class="hero-stat">
+          <div class="number" data-count="99">0%</div>
+          <div class="label">Uptime</div>
+        </div>
+        <div class="hero-stat">
+          <div class="number" data-count="24">0/7</div>
+          <div class="label">Support</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== About Section ===== -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-content reveal-left">
+          <span class="section-label">About Us</span>
+          <h2 class="section-title">Who We Are</h2>
+          <p class="section-subtitle">
+            viraX_Trading is a technology-driven trading solutions company combining market experience, quantitative
+            research, and technology expertise.
+          </p>
+          <div class="about-specialties">
+            <div class="specialty-item">
+              <span class="icon">⚙️</span>
+              Algorithmic Trading Systems
+            </div>
+            <div class="specialty-item">
+              <span class="icon">📈</span>
+              Custom Indicator Development
+            </div>
+            <div class="specialty-item">
+              <span class="icon">🔬</span>
+              Strategy Research & Backtesting
+            </div>
+            <div class="specialty-item">
+              <span class="icon">🤖</span>
+              Trading Automation Solutions
+            </div>
+          </div>
+          <div class="about-quote">
+            <p>"Remove emotions from trading. Replace them with logic, data, and discipline."</p>
+          </div>
+        </div>
+        <div class="about-visual reveal-right">
+          <div class="about-card-stack">
+            <div class="about-info-card">
+              <div class="card-icon">🎯</div>
+              <h4>Our Mission</h4>
+              <p>To create disciplined and rule-based trading systems that eliminate emotional decision-making and
+                deliver consistent performance.</p>
+            </div>
+            <div class="about-info-card">
+              <div class="card-icon">🏗️</div>
+              <h4>Our Approach</h4>
+              <p>We combine market experience + quantitative research + technology expertise to build intelligent
+                trading algorithms tailored to your goals.</p>
+            </div>
+            <div class="about-info-card">
+              <div class="card-icon">🔒</div>
+              <h4>Risk First</h4>
+              <p>Capital preservation is our top priority. Every strategy is built with robust risk management rules and
+                strict drawdown controls.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Services Section ===== -->
+  <section class="section" id="services">
+    <div class="container">
+      <div style="text-align:center; margin-bottom:50px;" class="reveal">
+        <span class="section-label">Our Services</span>
+        <h2 class="section-title">What We Offer</h2>
+        <p class="section-subtitle" style="margin:0 auto;">End-to-end algorithmic trading solutions — from idea to
+          automated execution.</p>
+      </div>
+      <div class="services-grid">
+
+        <!-- Service 1 -->
+        <div class="service-card reveal">
+          <span class="service-number">01</span>
+          <div class="service-icon">⚡</div>
+          <h3>Algorithmic Trading Solutions</h3>
+          <p>Fully automated trading systems that execute trades based on predefined rules and strategies.</p>
+          <ul class="service-features">
+            <li><span class="check">✦</span> Intraday Strategies</li>
+            <li><span class="check">✦</span> Positional Strategies</li>
+            <li><span class="check">✦</span> Options Strategies</li>
+            <li><span class="check">✦</span> Index & Stock Algorithms</li>
+            <li><span class="check">✦</span> Risk-Controlled Execution</li>
+          </ul>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="service-card reveal">
+          <span class="service-number">02</span>
+          <div class="service-icon">🧠</div>
+          <h3>Custom Algo Strategy Development</h3>
+          <p>Have a trading idea? We convert it into a fully automated and backtested trading algorithm.</p>
+          <ul class="service-features">
+            <li><span class="check">✦</span> Strategy Logic Design</li>
+            <li><span class="check">✦</span> Entry & Exit Rule Programming</li>
+            <li><span class="check">✦</span> Risk & Money Management</li>
+            <li><span class="check">✦</span> API Integration with Brokers</li>
+            <li><span class="check">✦</span> Deployment & Testing</li>
+          </ul>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="service-card reveal">
+          <span class="service-number">03</span>
+          <div class="service-icon">📊</div>
+          <h3>Indicator Development</h3>
+          <p>Custom trading indicators tailored to your trading style and methodology.</p>
+          <ul class="service-features">
+            <li><span class="check">✦</span> Pine Script (TradingView)</li>
+            <li><span class="check">✦</span> Python-Based Indicators</li>
+            <li><span class="check">✦</span> MT4 / MT5 Indicators</li>
+            <li><span class="check">✦</span> Custom Dashboard Development</li>
+            <li><span class="check">✦</span> Multi-Timeframe Indicators</li>
+          </ul>
+        </div>
+
+        <!-- Service 4 -->
+        <div class="service-card reveal">
+          <span class="service-number">04</span>
+          <div class="service-icon">🔬</div>
+          <h3>Strategy Backtesting & Optimization</h3>
+          <p>Before risking capital, test your strategy on historical data with comprehensive analysis.</p>
+          <ul class="service-features">
+            <li><span class="check">✦</span> Historical Data Testing</li>
+            <li><span class="check">✦</span> Drawdown & Risk-Reward Analysis</li>
+            <li><span class="check">✦</span> Win Rate & Performance Metrics</li>
+            <li><span class="check">✦</span> CAGR, Sharpe Ratio, Equity Curve</li>
+            <li><span class="check">✦</span> Optimization & Parameter Tuning</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Why Choose Us ===== -->
+  <section class="section" id="why-us">
+    <div class="container">
+      <div style="text-align:center; margin-bottom:50px;" class="reveal">
+        <span class="section-label">Why Choose Us</span>
+        <h2 class="section-title">The Virax Advantage</h2>
+        <p class="section-subtitle" style="margin:0 auto;">Built on discipline, powered by data, driven by performance.
+        </p>
+      </div>
+      <div class="why-grid">
+        <div class="why-card reveal">
+          <div class="why-icon">📊</div>
+          <h4>Data-Driven Approach</h4>
+          <p>Every strategy is backed by extensive research, historical data analysis, and statistical validation.</p>
+        </div>
+        <div class="why-card reveal">
+          <div class="why-icon">🧘</div>
+          <h4>Emotion-Free Systems</h4>
+          <p>Algorithms don't panic, don't get greedy. Pure logic-based execution for consistent results.</p>
+        </div>
+        <div class="why-card reveal">
+          <div class="why-icon">📋</div>
+          <h4>Transparent Metrics</h4>
+          <p>Full visibility into strategy performance with detailed backtesting reports and analytics.</p>
+        </div>
+        <div class="why-card reveal">
+          <div class="why-icon">🛡️</div>
+          <h4>Strong Risk Management</h4>
+          <p>Built-in stop losses, position sizing, and drawdown controls protect your capital.</p>
+        </div>
+        <div class="why-card reveal">
+          <div class="why-icon">🎨</div>
+          <h4>Custom Solutions</h4>
+          <p>Every trader is different. We build personalized strategies tailored to your goals and risk appetite.</p>
+        </div>
+        <div class="why-card reveal">
+          <div class="why-icon">🔄</div>
+          <h4>Continuous Improvement</h4>
+          <p>Markets evolve, so do our strategies. Ongoing monitoring, optimization, and updates.</p>
+        </div>
+      </div>
+      <div class="why-bottom reveal">
+        <p>We focus on <strong>capital preservation first, profits next</strong>.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Process Section ===== -->
+  <section class="section" id="process">
+    <div class="container">
+      <div style="text-align:center; margin-bottom:60px;" class="reveal">
+        <span class="section-label">Our Process</span>
+        <h2 class="section-title">How We Work</h2>
+        <p class="section-subtitle" style="margin:0 auto;">A systematic, step-by-step approach to building your trading
+          edge.</p>
+      </div>
+      <div class="process-timeline reveal">
+        <div class="process-step">
+          <div class="step-num">01</div>
+          <h4>Understand Goals</h4>
+          <p>Deep dive into your trading style, risk tolerance, and objectives.</p>
+        </div>
+        <div class="process-step">
+          <div class="step-num">02</div>
+          <h4>Research & Build</h4>
+          <p>Strategy research, logic design, and algorithm development.</p>
+        </div>
+        <div class="process-step">
+          <div class="step-num">03</div>
+          <h4>Backtest & Optimize</h4>
+          <p>Rigorous testing on historical data with full performance analysis.</p>
+        </div>
+        <div class="process-step">
+          <div class="step-num">04</div>
+          <h4>Deploy & Automate</h4>
+          <p>Live deployment with broker API integration and automation.</p>
+        </div>
+        <div class="process-step">
+          <div class="step-num">05</div>
+          <h4>Monitor & Review</h4>
+          <p>Continuous performance monitoring and strategy refinement.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Who We Serve + Vision ===== -->
+  <section class="section" id="clients">
+    <div class="container">
+      <div style="text-align:center; margin-bottom:40px;" class="reveal">
+        <span class="section-label">Who We Serve</span>
+        <h2 class="section-title">Built for Every Trader</h2>
+      </div>
+      <div class="clients-grid reveal">
+        <div class="client-badge"><span class="icon">👤</span> Retail Traders</div>
+        <div class="client-badge"><span class="icon">📊</span> Options Traders</div>
+        <div class="client-badge"><span class="icon">💼</span> Professional Traders</div>
+        <div class="client-badge"><span class="icon">🏦</span> Investors</div>
+        <div class="client-badge"><span class="icon">🏢</span> Prop Trading Participants</div>
+      </div>
+      <div class="vision-box reveal">
+        <h3 class="gold-text">Our Vision</h3>
+        <p>To become a trusted name in quantitative trading solutions by delivering innovative, reliable, and
+          disciplined automated trading systems.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FAQ Section ===== -->
+  <section class="section" id="faq">
+    <div class="container">
+      <div style="text-align:center; margin-bottom:50px;" class="reveal">
+        <span class="section-label">FAQ</span>
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <p class="section-subtitle" style="margin:0 auto;">Everything you need to know about our algorithmic trading
+          services.</p>
+      </div>
+      <div class="faq-container reveal">
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span class="faq-num">01</span>
+            <span class="faq-text">What is Algorithmic Trading?</span>
+            <span class="faq-arrow">▼</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              Algorithmic trading is a method of executing trades automatically using predefined rules such as price,
+              volume, timing, and risk management parameters. It removes human emotions from trading and ensures
+              disciplined, consistent execution.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span class="faq-num">02</span>
+            <span class="faq-text">Does Virax Trading guarantee profits?</span>
+            <span class="faq-arrow">▼</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              No. Trading involves market risk. Our algorithms are designed with strict risk management rules, but no
+              system can guarantee profits. We focus on building strategies with strong risk-adjusted returns and
+              capital preservation.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span class="faq-num">03</span>
+            <span class="faq-text">Do I need coding knowledge to use your algo services?</span>
+            <span class="faq-arrow">▼</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              No. We provide ready-to-deploy solutions. You only need a broker account and API access. We handle all the
+              technical development, testing, and deployment.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span class="faq-num">04</span>
+            <span class="faq-text">Which markets do you support?</span>
+            <span class="faq-arrow">▼</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              We develop strategies for:
+              <ul>
+                <li>Index Trading (Nifty, Bank Nifty)</li>
+                <li>Stock Trading</li>
+                <li>Options Trading</li>
+                <li>Intraday & Positional Strategies</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span class="faq-num">05</span>
+            <span class="faq-text">Do you provide broker integration?</span>
+            <span class="faq-arrow">▼</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              Yes. We integrate strategies with broker APIs for automated execution. This includes seamless connectivity
+              with leading Indian brokers for real-time order placement.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span class="faq-num">06</span>
+            <span class="faq-text">Can you convert my trading strategy into an algorithm?</span>
+            <span class="faq-arrow">▼</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              Absolutely. Share your trading logic and we will develop, backtest, and deploy it as a fully automated
+              algorithm with proper risk management controls.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span class="faq-num">07</span>
+            <span class="faq-text">What is included in backtesting reports?</span>
+            <span class="faq-arrow">▼</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              We provide comprehensive reports including:
+              <ul>
+                <li>Net Profit</li>
+                <li>Maximum Drawdown</li>
+                <li>Win Rate</li>
+                <li>Risk-Reward Ratio</li>
+                <li>CAGR</li>
+                <li>Equity Curve Analysis</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span class="faq-num">08</span>
+            <span class="faq-text">Do you offer support after deployment?</span>
+            <span class="faq-arrow">▼</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              Yes. We provide ongoing monitoring support and strategy improvement services to ensure your algorithms
+              continue to perform optimally as market conditions evolve.
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Contact Section ===== -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div style="text-align:center; margin-bottom:50px;" class="reveal">
+        <span class="section-label">Contact</span>
+        <h2 class="section-title">Let's Build Your Trading Edge</h2>
+        <p class="section-subtitle" style="margin:0 auto;">Ready to automate your trading? Get in touch and let's
+          discuss your strategy.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info reveal-left">
+          <div class="contact-item">
+            <div class="icon">📧</div>
+            <div>
+              <h4>Email Us</h4>
+              <p><a href="mailto:viraxtrading@gmail.com">viraxtrading@gmail.com</a></p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="icon">💬</div>
+            <div>
+              <h4>WhatsApp</h4>
+              <p><a href="https://wa.me/916381141794" target="_blank" rel="noopener">+91 63811 41794</a></p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="icon">📱</div>
+            <div>
+              <h4>Call Us</h4>
+              <p><a href="tel:+916381141794">+91 63811 41794</a></p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="icon">📍</div>
+            <div>
+              <h4>Location</h4>
+              <p>India</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="icon">⏰</div>
+            <div>
+              <h4>Business Hours</h4>
+              <p>Mon – Sat, 9:00 AM – 6:00 PM IST</p>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form reveal-right" id="contactForm" onsubmit="handleSubmit(event)">
+          <div class="form-row">
+            <div class="form-group">
+              <input type="text" placeholder="Your Name" required id="contact-name">
+            </div>
+            <div class="form-group">
+              <input type="email" placeholder="Your Email" required id="contact-email">
+            </div>
+          </div>
+          <div class="form-group">
+            <input type="text" placeholder="Subject" id="contact-subject">
+          </div>
+          <div class="form-group">
+            <textarea placeholder="Tell us about your trading goals..." id="contact-message"></textarea>
+          </div>
+          <button type="submit" class="btn-primary" style="align-self:flex-start;">
+            Send Message →
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Disclaimer ===== -->
+  <div class="disclaimer">
+    <div class="container">
+      <div class="disclaimer-inner reveal">
+        <div class="icon">⚠️</div>
+        <div>
+          <h4>Risk Disclaimer</h4>
+          <p>Trading in financial markets involves risk. Algorithmic trading does not guarantee profits. Past
+            performance is not indicative of future results. Please consult your financial advisor before investing.
+            Virax Trading provides technology and research services only and does not provide investment advisory
+            services.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div style="display:flex;align-items:center;gap:10px;margin-bottom:10px;">
+            <img src="logo.png" alt="viraX Trading" style="height:50px;width:auto;">
+            <div class="nav-logo-text">
+              <span class="virax">viraX</span>
+              <span class="trading">TRADING</span>
+            </div>
+          </div>
+          <p>Precision. Performance. Profitability.</p>
+          <p class="footer-tagline">"Where Logic Drives Trading."</p>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#why-us">Why Us</a></li>
+            <li><a href="#process">Process</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#services">Algo Trading</a></li>
+            <li><a href="#services">Strategy Dev</a></li>
+            <li><a href="#services">Indicators</a></li>
+            <li><a href="#services">Backtesting</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Support</h4>
+          <ul>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="mailto:viraxtrading@gmail.com">Email Us</a></li>
+            <li><a href="https://wa.me/916381141794" target="_blank">WhatsApp</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 viraX_Trading. All rights reserved. | Technology & Research Services Only.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="Twitter">𝕏</a>
+          <a href="#" aria-label="LinkedIn">in</a>
+          <a href="#" aria-label="Instagram">📷</a>
+          <a href="#" aria-label="YouTube">▶</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
